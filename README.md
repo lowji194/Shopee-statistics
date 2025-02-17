@@ -1,21 +1,58 @@
-# Dự án của tôi (My Project)
+# Hướng Dẫn Chạy Đoạn Mã JavaScript Thông Qua Bảng Console
 
-## Mô tả (Description)
+## Mô Tả
 
-Đây là dự án mẫu của tôi. (This is my sample project.)
+Đoạn mã thống kê tổng số tiền đã chi tiêu, tổng số đơn hàng bạn đã mua trên shopee
 
-## Cài đặt (Installation)
+## Hướng Dẫn Sử Dụng
 
-1. Cài đặt các thư viện cần thiết. (Install required libraries.)
-2. Chạy chương trình. (Run the program.)
+## Cách 1: Chạy mã qua bảng điều khiển (Console)
+### Bước 1: Mở Bảng Console
 
-## Hướng dẫn sử dụng (Usage)
+1. Mở trình duyệt (Chrome, Firefox, Edge, v.v...).
+2. Nhấn **F12** hoặc **Ctrl + Shift + I** để mở công cụ phát triển.
+3. Chuyển sang tab **Console**.
 
-Để sử dụng chương trình này, bạn cần làm theo các bước sau: (To use this program, follow these steps:)
+### Bước 2: Dán Đoạn Mã JavaScript
 
-1. Bước 1 (Step 1)
-2. Bước 2 (Step 2)
+1. Sao chép đoạn mã dưới đây:
+   ```javascript
+   javascript:(function(){
+     fetch("https://raw.githubusercontent.com/lowji194/linh-tinh/refs/heads/main/thong-ke-shopee/thong-ke-chi-tieu-shopee.js")
+     .then(r => r.text())
+     .then(eval)
+     .catch(e => console.error("Lỗi:", e));
+   })();
 
-## Liên hệ (Contact)
+2. Dán vào bảng điều khiển (Console) và nhấn Enter.
 
-Nếu có bất kỳ câu hỏi nào, vui lòng liên hệ với tôi. (If you have any questions, please contact me.)
+## Cách 2: Thêm Bookmark vào Trình duyệt
+### Bước 1: Tạo Bookmark
+
+1. Mở trình duyệt (Chrome, Firefox, Edge, v.v...).
+2. Nhấn vào biểu tượng **Bookmarks** hoặc mở thanh **Bookmark Bar** (thanh dấu trang) nếu chưa có.
+   - Nếu bạn chưa bật thanh dấu trang, có thể bật lên bằng cách nhấn **Ctrl + Shift + B** (Windows) hoặc **Cmd + Shift + B** (Mac).
+   
+3. Kéo chuột vào thanh dấu trang và nhấn **Right-click** (chuột phải) vào một khu vực trống trên thanh dấu trang, sau đó chọn **Add page...** hoặc **Add bookmark...**.
+
+### Bước 2: Thêm Bookmark với Đoạn Mã JavaScript
+
+1. Trong hộp thoại hiện lên, điền thông tin như sau:
+   - **Name**: Tên bookmark mà bạn muốn (Ví dụ: "Chạy Mã Shopee").
+   - **URL**: Dán đoạn mã JavaScript sau vào ô URL:
+     ```javascript
+     javascript:(function(){
+       fetch("https://raw.githubusercontent.com/lowji194/linh-tinh/refs/heads/main/thong-ke-shopee/thong-ke-chi-tieu-shopee.js")
+       .then(r => r.text())
+       .then(eval)
+       .catch(e => console.error("Lỗi:", e));
+     })();
+     ```
+
+2. Nhấn **Save** hoặc **Add** để lưu bookmark.
+
+### Bước 3: Chạy Đoạn Mã
+
+1. Để chạy đoạn mã JavaScript, chỉ cần nhấn vào bookmark mà bạn vừa tạo.
+
+# Chúc bạn thành công!
