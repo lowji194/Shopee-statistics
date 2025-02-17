@@ -1,3 +1,5 @@
+![Language](https://img.shields.io/badge/lang-English-blue)
+
 # Hướng Dẫn Chạy Đoạn Mã JavaScript Thông Qua Bảng Console
 
 ## Mô Tả
