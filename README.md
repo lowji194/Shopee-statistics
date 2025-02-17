@@ -1,4 +1,3 @@
-[English](README-en.md) | [Tiếng Việt](README-vi.md)
 
 # Hướng Dẫn Chạy Đoạn Mã JavaScript Thông Qua Bảng Console
 
