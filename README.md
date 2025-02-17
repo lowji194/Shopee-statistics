@@ -1,4 +1,4 @@
-![Language](https://img.shields.io/badge/lang-English-blue)
+[English](README-en.md) | [Tiếng Việt](README-vi.md)
 
 # Hướng Dẫn Chạy Đoạn Mã JavaScript Thông Qua Bảng Console
 
